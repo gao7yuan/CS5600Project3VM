@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="VirtualMemFrameworkC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualMemFrameworkC">
+				<Option output="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/VirtualMemFrameworkC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/Unity/src"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 VirtualMemFrameworkC"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualMemFrameworkC/fast">
+				<Option output="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/VirtualMemFrameworkC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/Unity/src"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 VirtualMemFrameworkC/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unity">
+				<Option output="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/libunity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/Unity/src"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 unity"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unity/fast">
+				<Option output="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/libunity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/Unity/src"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests"/>
+					<Add directory="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 unity/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/Unity/src/unity.c">
+			<Option target="unity"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/Unity/src/unity.h">
+			<Option target="unity"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer/AllocationList.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer/AllocationList.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer/FrameTable.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer/FrameTable.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer/PageTable.h">
+			<Option target="unity"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer/callback.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer/callback.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer/memory.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer/memory.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer/thread.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/answer/thread.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/main.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/system.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/system.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/heap/multiThreadedTests.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/heap/multiThreadedTests.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/heap/nonThreadedTests.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/heap/nonThreadedTests.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/heap/singleThreadedTests.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/heap/singleThreadedTests.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/pagingTests.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/pagingTests.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/stack/multiThreadedTests.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/stack/multiThreadedTests.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/stack/nonThreadedTests.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/stack/nonThreadedTests.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/stack/singleThreadedTests.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/stack/singleThreadedTests.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/threadedTestUtil.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/threadedTestUtil.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/utils.c">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/src/tests/utils.h">
+			<Option target="VirtualMemFrameworkC"/>
+		</Unit>
+		<Unit filename="/Users/YuanGao/Desktop/CS5600/HW/HW3/gao7yuan_project3_vm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
